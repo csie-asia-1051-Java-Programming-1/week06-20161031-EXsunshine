@@ -5,7 +5,7 @@
  @@@
  @@@
  * Date: 2016/10/31
- * Author: 1050210XX 周永振老師
+ * Author: 105021057 張岳埕
  */
 import java.util.*;
 public class ex01 {
