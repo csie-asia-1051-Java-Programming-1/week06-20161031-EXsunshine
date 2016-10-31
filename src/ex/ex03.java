@@ -4,12 +4,21 @@
  * Date: 2016/10/31
  * Author: 105021057 張岳埕
  */
-
+import java.util.*;
 public class ex03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+Scanner scn = new Scanner(System.in);
+String n =scn.next();
+decomp(n);
 	}
-
+	public static void decomp(String n){
+		for(int i = 0;i<=n.length()-1;i++){
+			System.out.print(n.charAt(i));
+			if(i!=n.length()-1){
+				System.out.print("\t");
+			}
+		}
+	}
 }
